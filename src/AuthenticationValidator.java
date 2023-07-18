@@ -1,5 +1,3 @@
-import java.util.regex.Pattern;
-
 public class AuthenticationValidator {
     public static void validateAuthenticationData(String login, String password, String passwordConfirmation) throws WrongLoginException, WrongPasswordException{
         validateLogin(login);
