@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         String login = "sad";
-        String password = "asdasd";
-        String passwordConfirmation = "asdasdasd";
+        String password = "qweqwe";
+        String passwordConfirmation = "qweqwe";
+
 
         try {
             AuthenticationValidator.validateAuthenticationData(login, password, passwordConfirmation);
